@@ -13,7 +13,7 @@ class PerserveIndentBreak extends AbstractAction {
     /**
      * {@code true} cleans the current indent in the line and adds a new line, {@code false} only removes the indent and stays in the line
      */
-    private static final boolean ADD_NEWLINE_AFTER_WHITESPACE = true;
+    private static final boolean ADD_NEWLINE_AFTER_WHITESPACE = false;
 
     private final BreakpointPane code;
     private final Action originalInsertLineBreak;
